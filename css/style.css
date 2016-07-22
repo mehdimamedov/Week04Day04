@@ -1,0 +1,122 @@
+.siteHeader {
+  height: 46px;
+  background-color: #fbfbfb;
+  line-height: 44px; }
+  .siteHeader .contactHolder {
+    box-sizing: border-box;
+    border: 1px solid #f1f1f1; }
+  .siteHeader .col-md-2 {
+    border: 1px solid #f1f1f1;
+    text-align: center; }
+    .siteHeader .col-md-2 i {
+      color: #999;
+      line-height: 44px; }
+
+nav {
+  background-color: white !important; }
+  nav img {
+    height: 100%; }
+
+.navbar-brand,
+.navbar-nav li a {
+  height: 92px;
+  line-height: 62px; }
+
+.dropdown-menu > li > a {
+  line-height: 1.42857143;
+  height: auto !important; }
+
+.sidebar-nav {
+  padding: 9px 0; }
+
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px; }
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible; }
+
+.dropdown:hover .dropdown-menu {
+  display: block; }
+
+.dropdown:hover {
+  background-color: #31A3DD; }
+  .dropdown:hover .dropdown-toggle {
+    color: white !important;
+    line-height: 18px !important; }
+  .dropdown:hover i {
+    display: block; }
+
+.dropdown {
+  text-align: center;
+  transition: all 0.2s ease; }
+  .dropdown i {
+    display: none;
+    font-size: 40px;
+    color: white;
+    transition: all 0.4s linear; }
+
+.sliderHolder img {
+  width: 100%;
+  height: 500px; }
+
+.getTemplate {
+  background-color: #414547;
+  height: 95px; }
+
+.sectionsHolder .col-md-3 {
+  padding: 20px;
+  height: 346px; }
+  .sectionsHolder .col-md-3 .innerSection {
+    text-align: center;
+    height: 100%;
+    background-color: #f1f1f1;
+    padding: 40px; }
+    .sectionsHolder .col-md-3 .innerSection .icon {
+      width: 80px;
+      height: 80px;
+      border-radius: 100%;
+      background-color: white;
+      margin: 0 auto;
+      text-align: center; }
+      .sectionsHolder .col-md-3 .innerSection .icon i {
+        line-height: 80px;
+        font-size: 35px;
+        color: #999999; }
+    .sectionsHolder .col-md-3 .innerSection h4 {
+      margin: 25px 0px;
+      font-weight: bold; }
+    .sectionsHolder .col-md-3 .innerSection p {
+      color: #999; }
+
+.features {
+  background: url(../img/block2.png);
+  background-size: cover;
+  padding: 30px; }
+  .features .featureHead p {
+    line-height: 15px; }
+  .features h4 {
+    font-weight: bold; }
+  .features h4, .features p {
+    text-align: center;
+    color: white; }
+  .features p {
+    line-height: 50px; }
+  .features img {
+    position: relative;
+    top: 50px; }
+
+.pricePlan {
+  text-align: center; }
+  .pricePlan h3 {
+    margin-top: 60px; }
+  .pricePlan .col-md-3 {
+    padding: 30px; }
+    .pricePlan .col-md-3 .innerPrices {
+      border: 1px solid black;
+      height: 422px; }
+
+/*# sourceMappingURL=style.css.map */
